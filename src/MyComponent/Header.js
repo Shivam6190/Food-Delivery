@@ -24,7 +24,7 @@ const HeaderComponet = () =>{
     return (
       
         <nav className='nav-bar'>
-          <img src="https://www.creativehatti.com/wp-content/uploads/2021/04/Food-Delivery-Logo-Template-18-small.jpg"></img>
+          {/* <img src="https://www.creativehatti.com/wp-content/uploads/2021/04/Food-Delivery-Logo-Template-18-small.jpg"></img> */}
           
           <ul>
             <li><Link to="/">Home</Link></li>
