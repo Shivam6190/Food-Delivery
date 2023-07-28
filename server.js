@@ -1,11 +1,14 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const cors = require("cors");
 const path = require("path");
 
 const mongoose = require("mongoose");  //required for connecting to database.
 
 
 const app = express();
+
+app.use(cors());
 
 mongoose.connect("mongodb+srv://user786:restaurant123@restaurants.qwdxnj0.mongodb.net/");
 

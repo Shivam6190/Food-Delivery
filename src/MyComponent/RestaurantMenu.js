@@ -32,6 +32,7 @@ const RestaurantMenu = () => {
         }
 
         setRestaurantMenuItems(menu);
+        console.log(menu);
 
     
     }
