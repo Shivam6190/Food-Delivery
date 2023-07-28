@@ -1,14 +1,7 @@
 .App {
   text-align: center;
-  /* font-family: 'Poppins', sans-serif; */
-  /* font-size: 20px; */
+
 }
-
-/* .root{
-  font-family: 'Poppins', sans-serif;
-  background:radial-gradient(#fff,#b8e8f2)
-
-} */
 
 .nav-bar {
   display: flex;
@@ -19,24 +12,34 @@
   top:0;
   /* background-color: rgb(243, 232, 212);; */
   background:radial-gradient(#fff,#ebf3b8);
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 .nav-bar > img {
   width: 100px;
   height: 100px;
   border-radius: 70px;
+  border-color:2px black;
 }
 
 .nav-bar > ul {
   display: flex;
   align-items: center;
+  
+  /* text-decoration: none; */
 }
 
 .nav-bar > ul > li {
   text-decoration: none;
   list-style-type: none;
   margin: 5px;
+  
+}
+
+.info{
+  /* display:flex;
+  align-items: center; */
+
 }
 
 .Search {
@@ -63,6 +66,8 @@
   transition: 0.7ms;
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
+  
   
 }
 
@@ -76,12 +81,16 @@
   height: 50%;
   margin: 15px;
   border-radius: 3px;
-  border: 1px #33353a;
+  border-color: 4px #0e0e0f;
 }
 
 .res-info {
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
+
+  /* margin: 10px; */
+  
+  
 }
 
 .res-container {
@@ -89,6 +98,7 @@
   flex-wrap: wrap;
   justify-content: center;
   background:radial-gradient(#fff,#f4f5ef);
+  
   
 }
 
@@ -128,7 +138,8 @@
 
 .login-button{
   height: fit-content;
-  margin-top: 30px;
+  margin-top: 8px;
+  margin-left: 7px;
   padding: 9px;
   color:black;
   background: #e0715ed3;
@@ -178,6 +189,7 @@
   background-color: white;
   border-radius: 4px;
   margin-top:10px ;
+  background:radial-gradient(#fff,#edc8c2);
  
   /* text-decoration: none; */
   /* padding: 20px; */

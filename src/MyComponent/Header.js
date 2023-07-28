@@ -26,13 +26,15 @@ const HeaderComponet = () =>{
         <nav className='nav-bar'>
           <img src='https://www.creativehatti.com/wp-content/uploads/2021/04/Food-Delivery-Logo-Template-18-small.jpg' alt="rest-pic"/>
           
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+          <ul className="info">
+            <li ><Link style={{textDecoration: 'none'}} to="/">Home</Link></li>
+            <li><Link style={{textDecoration: 'none'}} to="/about">About</Link></li>
+            <li><Link style={{textDecoration: 'none'}} to="/contact">Contact</Link></li>
+            <li><button onClick={(e) =>{updateLoginLogoutText()}} className="login-button">{buttonText}</button></li>
+          
           </ul>
 
-          <button onClick={(e) =>{updateLoginLogoutText()}} className="login-button">{buttonText}</button>
+          
   
   
         </nav>

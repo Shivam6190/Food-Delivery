@@ -1,4 +1,6 @@
-import {RESTAURANT_IMG_URL} from '../common/restaurant_img_url'
+import {RESTAURANT_IMG_URL} from '../common/restaurant_img_url';
+import {MdDeliveryDining} from 'react-icons/md';
+import {TbUserStar} from 'react-icons/tb'
 
 const RestaurantCard = ({restaurant})=>{
     // const {
@@ -34,9 +36,9 @@ const RestaurantCard = ({restaurant})=>{
         {/* template literal helped in adding comma */}
         <h4>{`${cuisines}`}.</h4>
   
-        <div className='res-info'>
-          <h4>{avgRating}</h4>
-          <h4>{deliveryTime}</h4>
+        <div className='res-info' >
+          <h4 >{avgRating}   <TbUserStar/> </h4>
+          <h4>{deliveryTime}    <MdDeliveryDining/></h4>
           {/* <h4>{costForTwoString}</h4> */}
         </div>
       </div>
