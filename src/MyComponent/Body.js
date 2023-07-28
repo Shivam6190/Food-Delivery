@@ -27,7 +27,7 @@ const BodyComponent = () =>{
    
     const result = await fetch(
      
-      "http://localhost:8000/api/restaurants"
+      "https://restaurants-api-s0su.onrender.com/api/restaurants"
       
     );
     
